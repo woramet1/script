@@ -1,5 +1,5 @@
 #!/bin/bash
-# ผู้สร้างสคริป : http://walker-vpn.in.th
+# Original script by : fornesia, rzengineer and fawzya
 # สคริป BY WALKER-VPN
 # ==================================================
 # Initializing Var
