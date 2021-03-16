@@ -55,9 +55,9 @@ yes | sudo ufw enable
 
 # download script
 cd /usr/bin
-wget -q -O m "walkervpn.000webhostapp.com/menu.sh"
-wget -q -O speedtest "walkervpn.000webhostapp.com/Speedtest.sh"
-wget -q -O b-user "walkervpn.000webhostapp.com/b-user.sh"
+wget -q -O m "http://43.229.149.140/scriptvpn/menu.sh"
+wget -q -O speedtest "http://43.229.149.140/scriptvpn/Speedtest.sh"
+wget -q -O b-user "http://43.229.149.140/scriptvpn/b-user.sh"
 
 echo "30 3 * * * root /sbin/reboot" > /etc/cron.d/reboot
 chmod +x speedtest
